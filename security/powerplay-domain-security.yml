@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.getpowerplay.in
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 23 06:52:52 2026 GMT
+  hsts: false
+domains:
+- domain: getpowerplay.in
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: true
+  dmarc_policy: none

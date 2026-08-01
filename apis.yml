@@ -1,8 +1,26 @@
 aid: powerplay
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/powerplay.png
 name: Powerplay
-description: 'Powerplay is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: cloud-saas. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Powerplay is a construction project management platform built by Coffer
+  Internet Services Pvt. Ltd. (Bengaluru, India) that gives builders, general contractors,
+  subcontractors, project managers, and site engineers mobile and desktop tools to
+  run construction projects end to end: real-time work and progress tracking, material
+  procurement and inventory management, labor attendance and payroll, issue tracking,
+  petty-cash and expense management, and reporting dashboards. The product is delivered
+  primarily through iOS and Android field apps with a desktop companion. Powerplay
+  does not currently publish a public developer API, SDKs, or API documentation, so
+  this profile captures its identity and web surface for the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/powerplay/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Cloud Saas
+- Construction
+- Construction Technology
+- Project Management
+- Field Service
+- Payroll
+- Mobile Apps
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.getpowerplay.in/
+- type: Blog
+  url: https://www.getpowerplay.in/resources/blog/
+- type: Support
+  url: https://www.getpowerplay.in/contact/
+- type: SignUp
+  url: https://www.getpowerplay.in/requestdemo
+- type: TermsOfService
+  url: https://getpowerplay.in/terms-of-use/
+- type: PrivacyPolicy
+  url: https://getpowerplay.in/privacy/
+- type: DomainSecurity
+  url: security/powerplay-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
